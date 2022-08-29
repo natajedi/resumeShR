@@ -1,2 +1,2 @@
-# resumeShR https://github.com/natajedi/resumeShR 
+# https://natajedi.github.io/resumeShR/ 
 ## предварительное задание для курса по современному фронтенду Школы разработчиков
