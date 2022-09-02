@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--lang=ru в данном случае, контент на русском-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -20,8 +21,13 @@
       </ul>
     <div>
      <div class="container">
+<!--         foto->photo-->
      <div class="header-foto">
+
+<!--         ava11 - плохое имя класса, avatar - хорошее, это касается и далее по коду ниже,
+например blok1 видимо лучше box (хотя бы block) -->
       <div class="ava11">
+<!--          картинка пережата неверно, её заранее можно приготовить в корректных размерах-->
         <img src="assets/img/ava120.jpg" alt="foto" width="300" height="300"/>
       </div>
     </div>
@@ -38,9 +44,11 @@
      <div class="container-main">
       <div class="blok1">
       <div class="mycontacts">
+<!--          плохое форматирование, но более того открылся div#mycontacts и сразу закрылся, пустой div без семантической нагрузки-->
         <div id="mycontacts">
           </div>
         <p><h2 class="section-title" id="blok1">Мои контакты</h2>
+<!--          внешние ссылки оформляются через target=_blank-->
           <h2>GitHub:</h2><a class="link" href="#"><h2>https://github.com/natajedi</h2></a>
           <h2>Telegram:</h2><a class="link" href="#"><h2>@natajedi</h2></a>
           <h2>Discord:</h2><a class="link" href="#"><h2>@natajedi</h2></a></p>
@@ -48,6 +56,7 @@
       </div>
       <div class="blok2">
        <div class="aboutme">
+<!--           моя IDE подсказывает что id=aboutme использован дважды, что недопустимо-->
         <div id="aboutme">
        </div>
         <p><h2 class="section-title" id="aboutme"><strong>Обо мне</h2></p>
@@ -58,6 +67,7 @@
       <div id="educourses">
     </div>
     <div class="education">
+<!--        strong и p теги недопустимы по семантическим причинам, strong в том числе должен закрываться-->
       <p><h2 class="section-title" id="education"><strong>Основное образование</h2></p>
         <p><h3 class="text">
          <ol>

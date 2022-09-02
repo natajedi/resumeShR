@@ -14,17 +14,24 @@
 }
 
 .container {
-    display: flex; 
+    display: flex;
+    /*лишнее, ни на что не влияет, уже по умолчанию занимает 100%*/
     width: 100%;
     align-items: center;
+    /**
+    это лишнее, как и ниже по коду, не влияет ни на что
+     */
     position: relative;
+    /*цвета используются в hex формате почти всегда, т.е #E0BBDB*/
     background: rgb(224, 187, 219);
     padding: 50px;
     font: 1em sans-serif;
+    /*пункты не используются в вёрстке, только пиксели*/
     font-size: 12pt;
     color: ivory;
 }
 
+/*здесь всё лишнее, к тому же не используется в html*/
 .header {
     display: flex; 
     position: relative;
@@ -35,9 +42,11 @@
     left: 0;
 }
 
+
 .header-foto {
     display: flex; 
     position: relative;
+    /*пропущены величины у каждого из значений*/
     padding: 10 10 40 10 px;
     width: 300px;
     height: 300px;
