@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
@@ -9,7 +9,9 @@
 </head>
 <body>
   <header>
-      <ul class="menu_list">
+    <div class="container">
+      <div class="menu-profile">
+      <ul class="menu-profile">
         <li class="menu-profile"><a href="#mycontacts">Мои контакты</a></li>
         <li class="menu-profile"><a href="#aboutme">Обо мне</a></li>
         <li class="menu-profile"><a href="#education">Основное образование</a></li>
@@ -18,89 +20,70 @@
         <li class="menu-profile"><a href="#workexperience">Опыт работы</a></li>
         <li class="menu-profile"><a href="#languages">Уровень английского</a></li>
       </ul>
-    <div>
-     <div class="container">
-     <div class="header-foto">
-      <div class="ava11">
-        <img src="assets/img/ava120.jpg" alt="foto" width="300" height="300"/>
-      </div>
     </div>
-      <div class="header-container">
-        <p>
+    </div>
+      <div class="header-photo">
+        <img src="img/ava120.jpg" alt="photo" width="200" height="200"/>
+      </div>
+    <div class="header-title">
         <h1>Прохорова Наталья Ивановна</h1>
         <h2>Junior Front-end developer</h2>
-        </p>
-      </div>
     </div>
-  </div>
-</header>
-    <main>
-     <div class="container-main">
-      <div class="blok1">
-      <div class="mycontacts">
-        <div id="mycontacts">
+  </header>
+   <main>
+    <div class="main-blocks">
+      <div class="block1">
+        <div class="mycontacts">
+          <div id="mycontacts">
+            </div>
+          <h2 class="section-title" id="block1">Мои контакты</h2>
+            <a href="https://github.com/natajedi" target="_blank">Мой GitHub</a>
+            <h2>Telegram:</h2><h2>@natajedi</h2>
+            <h2>Discord:</h2><h2>@natajedi</h2>
           </div>
-        <p><h2 class="section-title" id="blok1">Мои контакты</h2>
-          <h2>GitHub:</h2><a class="link" href="#"><h2>https://github.com/natajedi</h2></a>
-          <h2>Telegram:</h2><a class="link" href="#"><h2>@natajedi</h2></a>
-          <h2>Discord:</h2><a class="link" href="#"><h2>@natajedi</h2></a></p>
         </div>
       </div>
-      <div class="blok2">
-       <div class="aboutme">
-        <div id="aboutme">
-       </div>
-        <p><h2 class="section-title" id="aboutme"><strong>Обо мне</h2></p>
-          <p><h3 class="text">
-              Моя цель обучения - получение необходимых знаний и навыков фронтенд-разработки для дальнейшей работы в этой области. В поисках возможностей для обучения от компаний своего города я узнала о Школе разработчиков из сетевого издания "Городские рейтинги". Ознакомилась с отзывами и думаю, что предполагаемый на курсе менторинг, уровень и темп обучения помогут быстрее достичь моей цели.</h3>
-          </p>
-      </div>
-      <div id="educourses">
-    </div>
-    <div class="education">
-      <p><h2 class="section-title" id="education"><strong>Основное образование</h2></p>
-        <p><h3 class="text">
-         <ol>
-          <li>ИСИ МордГУ им. Н.П. Огарева</li>
-         </ol>
-        </p>
-      </div>
-    <div class="courses">
-      <p><h2 class="section-title" id="courses"><strong>Курсы</h2></p>
-        <p><h3 class="text">
-         <ol>
-          <li>HTML Academy</li>
-          <li>UfaSkills</li>
-          <li>RS School</li>
-         </ol>
-        </p>
-      </div>
-      <div id="skills">
-     </div>
-       <div class="skills">
-       <p><h2 class="section-title" id="skills"><strong>Навыки</h2></p>
-        <p><h3 class="text">HTML/CSS</p>
-        <p class="text">GitHub</p></h3>
-      </div>
-      <div id="workexperience">
-     </div>
+       <div class="block2">
+        <div class="aboutme">
+          <h2 class="section-title" id="aboutme">Обо мне</h2>
+            <h3 class="text">
+            Моя цель обучения - получение необходимых знаний и навыков фронтенд-разработки для дальнейшей работы в этой области. В поисках возможностей для обучения от компаний своего города я узнала о Школе разработчиков из сетевого издания "Городские рейтинги". Ознакомилась с отзывами и думаю, что предполагаемый на курсе менторинг, уровень и темп обучения помогут быстрее достичь моей цели.</h3>
+          </div>
+        </div>
+        <div class="education">
+          <h2 class="section-title" id="education">Основное образование:</h2>
+            <h3 class="text">
+            ИСИ МордГУ им. Н.П. Огарева</h3>
+          </div>
+      <div class="courses">
+        <h2 class="section-title" id="courses">Курсы:</h2>
+        <div class="text">
+            <ol>
+             <li>HTML Academy</li>
+             <li>CS50 lectures</li>
+             <li>UfaSkills</li>
+             <li>RS School</li>
+            </ol>
+           </div>
+         </div>
+      <div class="skills">
+        <h2 class="section-title" id="skills">Навыки:</h2>
+          <h3 class="text">HTML/CSS</h3>
+          <h3 class="text">GitHub</h3>
+        </div>
       <div class="workexperience">
-        <p><h2 class="section-title" id="workexperience"><strong>Опыт работы</h2></p>
-         <p><h3 class="workexperience-text">Опыта работы во фронтенд-разработке пока нет:(</p>
-       </div>
-      <div id="languages">
+        <h2 class="section-title" id="workexperience">Опыт работы:</h2>
+          <h3 class="text">Пока без опыта:(</h3>
+        </div>
+      <div class="languages">
+        <h2 class="section-title" id="languages">Уровень английского:</h2>
+         <h3 class="text">English (A2)</h3>
       </div>
-        <div class="languages">
-        <p><h2 class="section-title" id="languages"><strong>Уровень английского</h2></p>
-        <p><h3 class="text">English (A2)</h3></p>
+    </main>
+      <footer>
+       <div class="date">
+        <h2 class="text">Саранск, 2022</h2>
       </div>
-      </div>
-      </div>
-     </main>
-    <footer>
-      <div class="date">
-        <p><h2 class="2022"><strong>Саранск, 2022</h2></p>
-      </div>
-    </footer>
-  </body>
+    </footer>  
+ </body>
 </html>
